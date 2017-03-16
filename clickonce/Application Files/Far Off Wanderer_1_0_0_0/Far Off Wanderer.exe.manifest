@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Far Off Wanderer.exe" version="1.0.0.0" publicKeyToken="5c60b8927d20cb39" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="Far Off Wanderer.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -31,14 +31,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Far Off Wanderer.exe" size="379352">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Far Off Wanderer.exe" size="378368">
       <assemblyIdentity name="Far Off Wanderer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xI2MNJazbeY0JdjgNckS08ReXKowXIbdgZn3k5/DtXY=</dsig:DigestValue>
+        <dsig:DigestValue>C0E0UgDxj+UHiR+j7IUtB0YuIekJlQaAg5K9dpVjNVU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -217,4 +217,4 @@
       <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
     </windowsSettings>
   </application>
-<publisherIdentity name="CN=DAVES-SURFACE\davep" issuerKeyHash="c3d4e8488ab197f22e99f14ac7751c39e36f3e3a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YQXqBpxAHRx17H6DMvUtCKCFZ9paxTykI8LLN/Yaki4=</DigestValue></Reference></SignedInfo><SignatureValue>VhMFSgMNBOVJ0XKYd2r7/D/bCZQefCkVETxHNGzSHhr4o7VYiKz4Vf/TCpIdMxCpUxdTAWnQcFonEXPc9Fz8pZ6JGH3OOTNX6DwPhBAvH8vMOnDAGYteyNk7yDZuNG/+1Z1w6gNQMv6wQkO/ReSBkSZBrhVL1LxSmc12eR7M2D0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sCNWQrJg/6em8uuhcGycXePFeRPmjqRlqb8DsrhPUMY1//wB5nNBbMRxYPIhduI6xkIpybLBAI0mDC458H1uwhlmhqYW6GRtScewQZmENzLLq1BXHmSkDxZeBtrk25Z6AVTZadXrcLK1K7KKSGQqncyB7B4QfVJz9snV2VdkaIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2e921af637cbc223a43cc55ada6785a0082df532837eec751c1d409c06ea0561" Description="" Url=""><as:assemblyIdentity name="Far Off Wanderer.exe" version="1.0.0.0" publicKeyToken="5c60b8927d20cb39" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DAVES-SURFACE\davep</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>gpzqUy6qqEe2T///rSMpwe9RiIuTAr1WpJFsFuX8elQ=</DigestValue></Reference></SignedInfo><SignatureValue>EBKqTY/ttBNGjIX4Um9QbHuHrXtCbsOAabtp4cV2fn4uAhUuz4TmpD1JBImIEI4qEuzI30h4R3bDdUQFltRoKKxE3kXiforf4Kj2Ss8IYLC6yOUca7TE/ZQScz/IjtRaZo0jDuNAXwzIsHXSDVZw3sSzdPwKfZ5lT0dXXAFPa64=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sCNWQrJg/6em8uuhcGycXePFeRPmjqRlqb8DsrhPUMY1//wB5nNBbMRxYPIhduI6xkIpybLBAI0mDC458H1uwhlmhqYW6GRtScewQZmENzLLq1BXHmSkDxZeBtrk25Z6AVTZadXrcLK1K7KKSGQqncyB7B4QfVJz9snV2VdkaIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQMfbPHDRObIJHnGJLAFInIzANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABBAFYARQBTAC0AUwBVAFIARgBBAEMARQBcAGQAYQB2AGUAcDAeFw0xNzAzMTYxOTI1MzRaFw0xODAzMTcwMTI1MzRaMDExLzAtBgNVBAMeJgBEAEEAVgBFAFMALQBTAFUAUgBGAEEAQwBFAFwAZABhAHYAZQBwMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwI1ZCsmD/p6by66FwbJxd48V5E+aOpGWpvwOyuE9QxjX//AHmc0FsxHFg8iF24jrGQinJssEAjSYMLjnwfW7CGWaGphboZG1Jx7BBmYQ3MsurUFceZKQPFl4G2uTblnoBVNlp1etwsrUrsopIZCqdzIHsHhB9UnP2ydXZV2RoiQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAD1jLDffThHbC5RweZ877b9bE/CyJUIjFaIFWi29khbka2Tde0DUE/gKefPtT4f7rVXHWvPe1QMcGBcjBwTmr+dGPykgwkWW/xffi9OS41JU48/PweVhvJXdSLt/CK3disDjq4/GkoRwgYp0o4nchprh2ms/VHeGyFmRCCUU6dm0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
